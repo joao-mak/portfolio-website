@@ -28,6 +28,7 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -122,21 +123,79 @@
       <section class="resume-section" id="projects">
         <div class="resume-section-content">
           <h2 class="mb-5">Projects</h2>
+
+          <div class="row no-gutters">
+            <div class="col-lg-6">
+              <a class="portfolio-item js-scroll-trigger" href="#budding">
+                <span class="caption">
+                  <span class="caption-content">
+                    <h2>Budding</h2>
+                    <p class="mb-0">
+                      React Native app that lets you track your plants' growth progress
+                    </p>
+                  </span>
+                </span>
+                <img class="img-fluid" src="assets/img/lisbon images/eletrico2.jpg" alt="" />
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a class="portfolio-item js-scroll-trigger" href="#taskDone">
+                <span class="caption">
+                  <span class="caption-content">
+                    <h2>Taskdone</h2>
+                    <p class="mb-0">
+                      React Native app that lets you manage your tasks as a team
+                    </p>
+                  </span>
+                </span>
+                <img class="img-fluid" src="assets/img/lisbon images/tejo.jpg" alt="" />
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a class="portfolio-item js-scroll-trigger" href="#Eventual">
+                <span class="caption">
+                  <span class="caption-content">
+                    <h2>Eventual</h2>
+                    <p class="mb-0">
+                      A single page portfolio for a fictional event planning company, created using Bootstrap
+                    </p>
+                  </span>
+                </span>
+                <img class="img-fluid" src="assets/img/lisbon images/terreiro.jpg" alt="" />
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a class="portfolio-item js-scroll-trigger" href="#SmartBrain">
+                <span class="caption">
+                  <span class="caption-content">
+                    <h2>SmartBrain</h2>
+                    <p class="mb-0">
+                      Face recognition using AI
+                    </p>
+                  </span>
+                </span>
+                <img class="img-fluid" src="assets/img/lisbon images/torre.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <br/>
+        
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">TaskDone</h3>
+            <div class="flex-grow-1"id="taskDone">
+              <h3 class="mb-0" >TaskDone</h3>
               <div class="subheading mb-3">Front end: React Native, Expo</div>
               <div class="subheading mb-3">
-                Back end: AWS Amplify (DynamoDB, S3, Cognito)
+                Back end: 
               </div>
               <p>
                 My first solo project after Northcoders, a full-stack native app
                 that simplifies the creation, management and tracking of tasks'
                 progress as a group.
               </p>
-              <a href="https://github.com/joao-mak/taskDone">Project repository</a>
+              <p><a href="https://github.com/joao-mak/taskDone">Project repository</a></p>
             </div>
             <div class="flex-shrink-0">
               <span class="text-primary">July 2020</span>
@@ -145,7 +204,43 @@
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
-            <div class="flex-grow-1">
+            <div class="flex-grow-1" id="SmartBrain">
+              <h3 class="mb-0">SmartBrain</h3>
+              <div class="subheading mb-3">Front end: </div>
+              <div class="subheading mb-3">
+                Back end: 
+              </div>
+              <p>
+                An app that uses AI to recognize faces in photos
+              </p>
+              <p><a href="https://github.com/joao-mak/taskDone">Project repository</a></p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">July 2020</span>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1" id='Eventual'>
+              <h3 class="mb-0">Eventual</h3>
+              <div class="subheading mb-3">Bootstrap</div>
+              
+              <p>
+                A single page portfolio for a fictional event planning company, created using Bootstrap.
+              </p>
+              <p><a href="https://github.com/joao-mak/eventual">Project repository</a></p>
+              <p><a href="joao-mak.github.io/eventual/">Hosted link</a></p>
+              
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">July 2020</span>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1" id="budding">
               <h3 class="mb-0">budding</h3>
               <div class="subheading mb-3">
                 Front end: React Native, Expo, axios
