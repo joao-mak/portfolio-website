@@ -28,8 +28,9 @@
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
+  color: lightgray;
 }
 
 .portfolio-item .caption .caption-content p {

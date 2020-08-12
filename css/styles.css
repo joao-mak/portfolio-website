@@ -178,7 +178,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #3888bd;
   text-decoration: none;
   background-color: transparent;
 }
@@ -431,6 +431,7 @@ h6,
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: justify;
 }
 
 .display-1 {
@@ -6500,7 +6501,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #3888bd !important;
 }
 
 a.bg-primary:hover,
@@ -10212,7 +10213,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #3888bd !important;
 }
 
 a.text-primary:hover,
