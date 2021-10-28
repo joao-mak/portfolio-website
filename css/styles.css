@@ -178,7 +178,7 @@ sup {
 }
 
 a {
-  color: #3888bd;
+  color: #ce6017;
   text-decoration: none;
   background-color: transparent;
 }
@@ -6501,7 +6501,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #3888bd !important;
+  background-color: #ce6017 !important;
 }
 
 a.bg-primary:hover,
@@ -10213,7 +10213,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #3888bd !important;
+  color: #ce6017 !important;
 }
 
 a.text-primary:hover,
